@@ -55,6 +55,7 @@ node default {
   include hub
   include nginx
   include nvm
+  include xquartz
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
