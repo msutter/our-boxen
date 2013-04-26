@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (0.0.2)
@@ -27,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -79,6 +89,16 @@ GITHUBTARBALL
     ruby (3.6.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sizeup
+  specs:
+    sizeup (0.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sparrow
+  specs:
+    sparrow (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (0.0.1)
@@ -115,11 +135,13 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 1.2.0)
+  caffeine (= 0.0.1)
   chrome (= 0.0.2)
   dnsmasq (= 1.0.0)
   dropbox (= 0.0.2)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  gitx (= 0.0.1)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   imagemagick (= 0.0.1)
@@ -133,6 +155,8 @@ DEPENDENCIES
   property_list_key (= 0.1.0)
   ree (= 1.0.3)
   ruby (= 3.6.1)
+  sizeup (= 0.0.1)
+  sparrow (= 0.0.1)
   stdlib (= 3.0.0)
   sublime_text_2 (= 0.0.1)
   sudo (= 1.0.0)
