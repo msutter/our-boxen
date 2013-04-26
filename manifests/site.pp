@@ -72,9 +72,8 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
-  include ree::ree_1_8_7_2012_01
-  include ree::ree_1_8_7_2012_02
-
+  include ree::1_8_7_2012_01
+  include ree::1_8_7_2012_02
 
   # common, useful packages
   package {
