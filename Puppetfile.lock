@@ -4,9 +4,19 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (0.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (0.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -29,6 +39,16 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-imagemagick
+  specs:
+    imagemagick (0.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.1.0)
@@ -44,9 +64,24 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onepassword
+  specs:
+    onepassword (0.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.6.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -64,6 +99,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: glarizza/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
+
+GITHUBTARBALL
   remote: msutter/puppet-ree
   specs:
     ree (1.0.3)
@@ -75,18 +115,26 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 1.2.0)
+  chrome (= 0.0.2)
   dnsmasq (= 1.0.0)
+  dropbox (= 0.0.2)
   gcc (= 1.0.0)
   git (= 1.0.0)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
+  imagemagick (= 0.0.1)
   inifile (= 0.9.0)
+  iterm2 (= 0.0.1)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  onepassword (= 0.0.1)
+  osx (= 0.0.1)
+  property_list_key (= 0.1.0)
   ree (= 1.0.3)
   ruby (= 3.6.1)
   stdlib (= 3.0.0)
+  sublime_text_2 (= 0.0.1)
   sudo (= 1.0.0)
   xquartz (= 1.0.0)
 
