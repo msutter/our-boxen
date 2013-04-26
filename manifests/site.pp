@@ -2,6 +2,8 @@ require boxen::environment
 require homebrew
 require gcc
 
+include projects::all
+
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
