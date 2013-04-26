@@ -59,6 +59,11 @@ GITHUBTARBALL
     iterm2 (0.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-memcached
+  specs:
+    memcached (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.1.0)
@@ -147,6 +152,7 @@ DEPENDENCIES
   imagemagick (= 0.0.1)
   inifile (= 0.9.0)
   iterm2 (= 0.0.1)
+  memcached (= 1.2.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
