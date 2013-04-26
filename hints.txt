@@ -7,3 +7,11 @@
 10:59 < tgdsuma5> hey prismatictrail, thx a lot. I'll try this
 10:59 < prismatictrail> I hear the proper solution is to upgrade librarian-puppet to 0.9.9 but I am
                         ruby-stupid so not comfortable doing that
+11:00 -!- jhaals [~jhaals@80.239.169.201] has quit [Ping timeout: 252 seconds]
+11:00 -!- zalmoxes [~zalmoxes@199.115.115.1] has quit [Read error: Operation timed out]
+11:02 < webflo> prismatictrail:  new boxen installations use 0.9.9
+                https://github.com/boxen/boxen/blob/master/boxen.gemspec
+11:02 -!- zalmoxes [~zalmoxes@199.115.115.1] has joined #boxen
+11:02 < tgdsuma5> i'll try the new one. Thx again.
+11:03 < prismatictrail> ah, sweet, that gives me more confidence
+11:03 < prismatictrail> thanks
