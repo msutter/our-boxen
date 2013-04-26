@@ -33,7 +33,7 @@ github "sudo",     "1.0.0"
 
 # ree
 github "xquartz",  "1.0.0"
-github "ree",      "1.0.3", :repo => "msutter/puppet-ree"
+github "ree",      "1.0.4", :repo => "msutter/puppet-ree"
 
 
 # Optional/custom modules. There are tons available at
