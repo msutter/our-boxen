@@ -40,6 +40,7 @@ github "ree",      "1.0.3", :repo => "msutter/puppet-ree"
 # https://github.com/boxen.
 
 github "memcached",     "1.2.0"
+github "postgresql",     "1.0.0"
 
 mod "onepassword",        "0.0.1",   :github_tarball => "boxen/puppet-onepassword"
 mod "sublime_text_2",     "0.0.1",   :github_tarball => "boxen/puppet-sublime_text_2"
