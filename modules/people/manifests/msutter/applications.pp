@@ -17,13 +17,13 @@ class people::msutter::applications {
   ## Apps as boxen puppet modules
 
   include sublime_text_2
-#  include gitx
-#  include caffeine
+  include gitx
+  include caffeine
   include iterm2::stable
   include onepassword
   include dropbox
-#  include sizeup
-#  include sparrow
+  include sizeup
+  include sparrow
   include chrome
 
 
@@ -35,11 +35,11 @@ class people::msutter::applications {
   #   provider => pkgdmg,
   # }
 
-  # package { 'Skitch':
-  #   ensure   => installed,
-  #   source   => 'http://cdn1.evernote.com/skitch/mac/release/Skitch-2.0.4.zip',
-  #   provider => compressed_app,
-  # }
+  package { 'Skitch':
+    ensure   => installed,
+    source   => 'http://cdn1.evernote.com/skitch/mac/release/Skitch-2.0.4.zip',
+    provider => compressed_app,
+  }
 
   package { 'Cyberduck':
     source   => 'http://c315635.r35.cf1.rackcdn.com/Cyberduck-4.2.1.zip',
@@ -66,20 +66,20 @@ class people::msutter::applications {
   #   provider => compressed_app
   # }
 
-  # package { 'Gephi':
-  #   source   => 'https://launchpadlibrarian.net/98903476/gephi-0.8.1-beta.dmg',
-  #   provider => appdmg,
-  # }
+  package { 'Gephi':
+    source   => 'https://launchpadlibrarian.net/98903476/gephi-0.8.1-beta.dmg',
+    provider => appdmg,
+  }
 
-  # package { 'Pacifist':
-  #   source   => 'http://www.charlessoft.com/pacifist_download/Pacifist_3.0.10.dmg',
-  #   provider => appdmg,
-  # }
+  package { 'Pacifist':
+    source   => 'http://www.charlessoft.com/pacifist_download/Pacifist_3.0.10.dmg',
+    provider => appdmg,
+  }
 
-  # package { 'A Better Finder Renamer':
-  #   source   => 'http://d3k6s0oeufjjjn.cloudfront.net/download0_126e6b5/ABFRX8.dmg',
-  #   provider => appdmg,
-  # }
+  package { 'A Better Finder Renamer':
+    source   => 'http://d3k6s0oeufjjjn.cloudfront.net/download0_126e6b5/ABFRX8.dmg',
+    provider => appdmg,
+  }
 
   # package { 'Tunnelblick':
   #   source   => 'http://tunnelblick.googlecode.com/files/Tunnelblick_3.3beta21a.dmg',
