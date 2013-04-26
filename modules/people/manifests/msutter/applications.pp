@@ -46,6 +46,11 @@ class people::msutter::applications {
     provider => compressed_app
   }
 
+  package { 'OpenNX':
+    source   => 'http://sourceforge.net/projects/opennx/files/opennx/CI/OpenNX-0.16.0.725.dmg',
+    provider => pkgdmg,
+  }
+
   # package { 'iStat Menus':
   #   source   => 'http://s3.amazonaws.com/bjango/files/istatmenus3/istatmenus3.27.zip',
   #   provider => compressed_app
