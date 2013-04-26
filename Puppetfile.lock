@@ -64,6 +64,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: msutter/puppet-ree
+  specs:
+    ree (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -79,6 +84,7 @@ DEPENDENCIES
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  ree (= 1.0.0)
   ruby (= 3.6.1)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
