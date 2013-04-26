@@ -44,24 +44,24 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
-  specs:
-    xquartz (1.0.0)
-
-GITHUBTARBALL
-  remote: msutter/puppet-ruby
-  specs:
-    ruby (3.6.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
+
+GITHUBTARBALL
+  remote: msutter/puppet-ruby
+  specs:
+    ruby (3.6.3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -82,4 +82,5 @@ DEPENDENCIES
   ruby (= 3.6.3)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
+  xquartz (= 1.0.0)
 
