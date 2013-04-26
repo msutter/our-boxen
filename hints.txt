@@ -1,0 +1,17 @@
+10:56 < prismatictrail> possibly you're having the same problem I had? that was the error message;
+                        see line 22 in githubtarball.rb
+10:57 < prismatictrail> if someone cranked up the api security to require a user-agent just tonight
+                        it could have broken this
+10:58 < prismatictrail> my fix was to add  {'User-Agent' => 'boxen'} to the HTTP.Get call on line
+                        120
+10:59 < tgdsuma5> hey prismatictrail, thx a lot. I'll try this
+10:59 < prismatictrail> I hear the proper solution is to upgrade librarian-puppet to 0.9.9 but I am
+                        ruby-stupid so not comfortable doing that
+11:00 -!- jhaals [~jhaals@80.239.169.201] has quit [Ping timeout: 252 seconds]
+11:00 -!- zalmoxes [~zalmoxes@199.115.115.1] has quit [Read error: Operation timed out]
+11:02 < webflo> prismatictrail:  new boxen installations use 0.9.9
+                https://github.com/boxen/boxen/blob/master/boxen.gemspec
+11:02 -!- zalmoxes [~zalmoxes@199.115.115.1] has joined #boxen
+11:02 < tgdsuma5> i'll try the new one. Thx again.
+11:03 < prismatictrail> ah, sweet, that gives me more confidence
+11:03 < prismatictrail> thanks
