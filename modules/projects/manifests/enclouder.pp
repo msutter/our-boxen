@@ -1,4 +1,7 @@
 class projects::enclouder {
+
+    notify { 'class projects::enclouder declared': }
+
     boxen::project { 'enclouder' :
         #nginx => true,
         postgresql => true,
