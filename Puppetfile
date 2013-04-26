@@ -30,7 +30,10 @@ github "nvm",      "1.0.0"
 github "ruby",     "3.6.1"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
+
+# ree
 github "xquartz",  "1.0.0"
+github "ree",      "1.0.0", :repo => "msutter/puppet-ree"
 
 
 # Optional/custom modules. There are tons available at
