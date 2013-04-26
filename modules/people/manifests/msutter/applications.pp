@@ -1,5 +1,21 @@
 class people::msutter::applications {
 
+  ############
+  # Packages #
+  ############
+
+  ## Homebrew binaries
+
+  package { 'tree': }
+  package { 'wget': }
+  package { 'gawk': }
+  package { 'zsh': }
+  package { 'nmap': }
+  package { 'tmux': }
+
+
+  ## Apps as boxen puppet modules
+
   include sublime_text_2
 #  include gitx
 #  include caffeine
@@ -10,9 +26,8 @@ class people::msutter::applications {
 #  include sparrow
   include chrome
 
-  ############
-  # Packages #
-  ############
+
+  ## On the fly apps
 
   # package { 'Virtualbox':
   #   ensure => installed,
@@ -25,14 +40,6 @@ class people::msutter::applications {
   #   source   => 'http://cdn1.evernote.com/skitch/mac/release/Skitch-2.0.4.zip',
   #   provider => compressed_app,
   # }
-
-  package { 'tree': }
-  package { 'wget': }
-  package { 'locate': }
-  package { 'gawk': }
-  package { 'zsh': }
-  package { 'nmap': }
-  package { 'tmux': }
 
   package { 'Cyberduck':
     source   => 'http://c315635.r35.cf1.rackcdn.com/Cyberduck-4.2.1.zip',
