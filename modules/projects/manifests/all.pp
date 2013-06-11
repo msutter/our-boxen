@@ -6,4 +6,6 @@ class projects::all {
 
   include projects::enclouder
   include projects::project_ucid 
+  include projects::project_ucid_integration
+  include projects::project_ucid_production 
 }
